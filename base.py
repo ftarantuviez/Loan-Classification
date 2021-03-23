@@ -151,7 +151,6 @@ else:
   model = pickle.load(open("SVC.pkl", "rb"))
 
 prediction = model.predict(X_)
-predict_proba = model.predict_proba(X_)
 st.write("**Results**")
 col1, col2 = st.beta_columns(2)
 col1.write("Prediction")
