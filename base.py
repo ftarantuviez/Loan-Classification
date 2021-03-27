@@ -164,6 +164,6 @@ col2.dataframe(pd.DataFrame(model.predict_proba(X_), columns=["Default", "Paidof
 st.write("""
 ## App repository
 
-[Github](https://github.com/ftarantuviez/)TODO
+[Github](https://github.com/ftarantuviez/Loan-Classification)
 """)
 # / This app repository
